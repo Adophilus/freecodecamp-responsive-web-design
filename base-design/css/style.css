@@ -1,0 +1,25 @@
+@import url('colors.css');
+@import url('extras/index.css');
+@import url('typography.css');
+@import url('responsive.css');
+@import url('spacing.css');
+
+:root {
+  --color-primary: #515dff;
+  --color-secondary: #5dff51;
+  --color-tertiary: #ff515d;
+  --color-grey: #6a6a6a;
+
+  --font-body: open-sans;
+  --font-title: lobster;
+
+  --text-small: 0.5rem;
+  --text-normal: 1rem;
+  --text-medium: 2rem;
+  --text-large: 3rem;
+  --text-xtra-large: 4rem;
+}
+
+body {
+  font-family: var(--font-body);
+}

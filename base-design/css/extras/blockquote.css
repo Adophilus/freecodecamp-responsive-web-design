@@ -1,0 +1,25 @@
+.blockquote {
+  display: flex;
+}
+
+.blockquote::before {
+  content: '\201C';
+  font-size: 10rem;
+  align-self: flex-start;
+  align-content: flex-start;
+  margin-right: 1rem;
+}
+
+.blockquote .quote {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--text-medium);
+}
+
+.blockquote .quote .author::before {
+  content: '~ ';
+}
+
+.blockquote .author {
+  text-align: right;
+}

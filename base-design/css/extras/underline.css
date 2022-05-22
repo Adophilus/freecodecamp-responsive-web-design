@@ -1,0 +1,9 @@
+.page-title-underline {
+  height: 8px;
+}
+
+.page-title-underline div {
+  height: 100%;
+  width: 30%;
+  background-color: var(--color-primary);
+}

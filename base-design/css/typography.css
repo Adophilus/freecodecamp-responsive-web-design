@@ -1,0 +1,32 @@
+.text-s {
+  font-size: var(--text-small);
+}
+
+.text-n {
+  font-size: var(--text-normal);
+}
+
+.text-m {
+  font-size: var(--text-medium);
+}
+
+.text-l {
+  font-size: var(--text-large);
+}
+
+.text-xl {
+  font-size: var(--text-xtra-large);
+}
+
+.page-title {
+  font-size: var(--text-xtra-large);
+  font-family: var(--font-title);
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
