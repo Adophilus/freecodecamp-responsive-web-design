@@ -1,0 +1,32 @@
+@import url('/css/fonts.css');
+@import url('colors.css');
+@import url('extras/extras.css');
+@import url('layout.css');
+@import url('responsive.css');
+@import url('title.css');
+@import url('typography.css');
+
+:root {
+  --color-primary: #878325;
+  --color-secondary: #312614;
+  --color-grey: #707070;
+  --color-white: #ffffff;
+
+  --container-max-width: 980px;
+
+  --font-body: open-sans;
+
+  --text-title: 3rem;
+  --text-large: 1.5rem;
+  --text-heading: 1.125rem;
+  --text-body: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+}
