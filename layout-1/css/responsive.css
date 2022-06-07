@@ -1,5 +1,5 @@
 .container {
-  max-width: 980px;
+  width: clamp(320px, 980px, 1200px);
   margin-left: auto;
   margin-right: auto;
 }

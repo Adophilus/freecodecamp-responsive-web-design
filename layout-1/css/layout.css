@@ -1,14 +1,4 @@
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-grow {
-  flex-grow: 1;
-}
+@import url('flexbox.css');
 
 .inline-block {
   display: inline-block;
